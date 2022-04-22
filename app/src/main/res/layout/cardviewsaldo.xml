@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardbalance"
+    app:cardBackgroundColor="#8A2BE2"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Balance"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="32dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today, 22 Apr 2022"
+            android:textColor="#808080"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="18dp"
+            tools:layout_editor_absoluteY="65dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp.1.500.000.000"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="113dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="up by 2% ffrom last month"
+            android:textColor="#808080"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="22dp"
+            tools:layout_editor_absoluteY="154dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/logobca"
+            tools:layout_editor_absoluteX="330dp"
+            tools:layout_editor_absoluteY="123dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=". . ."
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            tools:layout_editor_absoluteX="321dp"
+            tools:layout_editor_absoluteY="-7dp"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
